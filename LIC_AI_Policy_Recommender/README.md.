@@ -1,0 +1,36 @@
+README.md
+LIC_AI_Policy_Recommender
+# LIC AI Policy Recommender
+
+This project is an **AI-powered insurance recommendation system** for LIC (Life Insurance Corporation) policies.  
+It helps users find the most suitable policy based on their **age, goals, income, risk tolerance, and financial situation**.
+
+## Features
+- Personalized LIC policy recommendations
+- Clear explanation of why a policy is suggested
+- Logs each recommendation with timestamp for tracking
+- Interactive UI using `ipywidgets` in Jupyter Notebook
+- Scoring system considers age, risk, goal, income, and existing cover
+
+## Tech Stack
+- Python  
+- Jupyter Notebook  
+- Pandas & NumPy (data handling and analysis)  
+- ipywidgets (interactive UI)  
+- OpenAI API (optional, for polished recommendation text)
+
+## How to Use
+1. Open the notebook `LIC_policy_recommender.ipynb` in Jupyter.  
+2. Run the cells sequentially to load libraries and functions.  
+3. Use the interactive form to enter your details.  
+4. Get top policy recommendation along with explanation.  
+5. The recommendation is saved automatically in `recommendations_log.csv`.
+
+## Optional
+- Extend the notebook with **more LIC policies** in the catalog.  
+- Convert it to a **Streamlit app** for a full web interface.
+
+- Also we can give all LIC policies data to the project for better performance
+
+
+
